@@ -29,7 +29,10 @@ app.get('/categories/:id', (req, res) => {
 
 })
 
-
+app.get('/news', (req, res) => {
+  // res.send(news);
+  res.send(news)
+})
 
 // news section
 app.get('/news/:id', (req, res) => {
